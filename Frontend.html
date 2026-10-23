@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Button Example</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #f3f4f6;
+      }
+
+      .custom-button {
+        background: #2563eb;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        padding: 12px 24px;
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+        box-shadow: 0 4px 10px rgba(37, 99, 235, 0.3);
+        transition: background 0.2s ease, transform 0.2s ease;
+      }
+
+      .custom-button:hover {
+        background: #1d4ed8;
+        transform: translateY(-1px);
+      }
+
+      .custom-button:active {
+        transform: translateY(0);
+      }
+    </style>
+  </head>
+  <body>
+    <button class="custom-button">Click Me</button>
+  </body>
+</html>
